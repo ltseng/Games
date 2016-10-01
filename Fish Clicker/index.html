@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="interface.css"/>
+	</head>
+
+	<body>
+		<h1 align="center">Fish Clicker </h1>
+		<h3 align="center">
+			<span id="fish">0</span> fish
+		</h3>
+
+		<table align="center">
+			<tr height="75">
+				<td>
+					<img src="flounder.png" height="75" onClick="fishClick(1)">
+				</td>
+<!---
+				<td width="200">
+					<div id="container" style="width:100%; height:5px border:1px solid black;">
+	  				<div id="progress-bar" style="width:10%;background-color: green; height:5px;"></div>
+					</div>
+				</td>
+-->
+				<td>
+					<button type="button" onClick="buyWormOnAString()">Buy Worm on a String</button>
+					Cursors: <span id="wormOnAString">0</span><br/>
+					Cost: <span id="wormOnAStringCost">10</span>
+				</td>
+
+			</tr>
+		</table>
+
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+
+
+</html>

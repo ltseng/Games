@@ -1,0 +1,148 @@
+/* .class, #id*/
+.pagetitle{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	color: #4D4D4D;
+}
+
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+.grid{
+	background-image: url("images/grid.jpg");
+	width: 480px;
+	height:  460px;
+	margin: auto;
+	display: inline-block;
+	/*border:1px solid red;*/
+	vertical-align: middle;
+}
+
+.admin{
+	padding: 50px;
+	border: 1px solid black;
+	display: inline-block;
+	width: 240px;
+	margin: 0px 50px 0px 50px;
+	vertical-align: top;
+}
+
+.newgame{
+	background-color: #228B22;
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 50px;
+	max-width: 150px;
+	height:50px;
+	margin: auto;
+	padding: 10px;
+	border-radius:5px;
+	/*border: 2px solid #363636;*/
+	transform: translate(0%,-10%);
+}
+
+.endgame{
+	background-color:#1874CD;
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 50px;
+	max-width: 150px;
+	height:50px;
+	margin: auto;
+	padding: 10px;
+	border-radius:5px;
+	/*border: 2px solid #363636;*/
+}
+
+.toprow{
+	width:70%;
+	max-height: 700px;
+	margin:auto;
+	/*border:10px solid red;*/
+}
+
+.pieceswrapper{
+	margin: auto;
+	/*border: 1px solid black;*/
+	max-width: 70%;
+}
+
+#playerpieces{
+	margin: auto;
+	padding: 20px;
+	visibility:hidden;
+}
+
+.piece{
+	background-color: #aeaeae;
+	margin:auto;
+	width: 64px;
+	height: 64px;
+	border: 1px solid black;
+}
+
+.flag{
+	background-image: url("images/f.png");
+	width:64px;
+	height: 64px;
+}
+
+tr{
+	margin: auto;
+}
+
+.bomb{
+	background-image: url("images/0-Bomb.png");
+	background-size: cover;
+}
+
+.spy{
+	background-image: url("images/1-Spy.png");
+	background-size: cover;
+}
+
+.scout{
+	background-image: url("images/2-Scout.png");
+	background-size: cover;
+}
+
+.miner{
+	background-image: url("images/3-Miner.png");
+	background-size: cover;
+}
+
+.sergeant{
+	background-image: url("images/4-Sergeant.png");
+	background-size: cover;
+}
+
+.lieutenant{
+	background-image: url("images/5-Lieutenant.png");
+	background-size: cover;
+}
+
+.captain{
+	background-image: url("images/6-Captain.png");
+	background-size: cover;
+}
+
+.major{
+	background-image: url("images/7-Major.png");
+	background-size: cover;
+}
+
+.colonel{
+	background-image: url("images/8-Colonel.png");
+	background-size: cover;
+}
+
+.general{
+	background-image: url("images/9-General.png");
+	background-size: cover;
+}
+
+.marshal{
+	background-image: url("images/10-Marshal.png");
+	background-size: cover;
+}

@@ -1,0 +1,157 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="interface.css"/>
+	</head>
+
+	<body onload="prepGUIs()">
+		<script type="text/javascript" src="main.js"></script>
+
+		<h1 align="center">Star Power</h1>
+
+		<div align="center">
+
+			<h3 align="center" style="display:inline-block; text-align:center">
+				<span id="dollars">5</span> dollars
+			</h3>
+
+			<div class="saveLoadButton" id="saveButton" onClick="save()">
+				Save
+			</div>
+
+			<div class="saveLoadButton" id="loadButton" onClick="load()">
+				Load
+			</div>
+		</div>
+		<br>
+
+		<table align="center">
+			<tr>
+				<td align="center">
+					<img src="img\guitar.png" height="75">
+				</td>
+				<td width="200">
+					<div class="container">
+	  					<div id="guitarProgress" class="progress-bar" >
+	  					</div>
+					</div>
+				</td>
+			<tr>
+				<td align="center">
+					<span id="numGuitars">0</span>
+				</td>
+				<td align="center">
+					<div class="buy-button" id="buyGuitarButton" onClick="buyStar(0)">
+						<span id="guitarCost">5</span> dollars
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<img src="img\band.png" height="75">
+				</td>
+				<td width="200">
+					<div class="container">
+	  					<div id="garageProgress" class="progress-bar" >
+	  					</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<span id="numGarages">0</span>
+				</td>
+				<td align="center">
+					<div class="buy-button" id="buyGarageButton" onClick="buyStar(1)">
+						<span id="garageCost">100</span> dollars
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<img src="img\sombrero.png" height="75">
+				</td>
+				<td width="200">
+					<div class="container">
+	  					<div id="mariachiProgress" class="progress-bar" >
+	  					</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<span id="numMariachis">0</span>
+				</td>
+				<td align="center">
+					<div class="buy-button" id="buyMariachiButton" onClick="buyStar(2)">
+						<span id="mariachiCost">2000</span> dollars
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<img src="img\DJ.png" height="75">
+				</td>
+				<td width="200">
+					<div class="container">
+	  					<div id="djProgress" class="progress-bar" >
+	  					</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<span id="numDJs">0</span>
+				</td>
+				<td align="center">
+					<div class="buy-button" id="buyDJButton" onClick="buyStar(3)">
+						<span id="DJCost">1500</span> dollars
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<img src="img\Broadway.png" height="75">
+				</td>
+				<td width="200">
+					<div class="container">
+	  					<div id="musicalProgress" class="progress-bar" >
+	  					</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<span id="numMusicals">0</span>
+				</td>
+				<td align="center">
+					<div class="buy-button" id="buyMusicalButton" onClick="buyStar(4)">
+						<span id="musicalCost">1500</span> dollars
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<img src="img\vegas.png" height="75">
+				</td>
+				<td width="200">
+					<div class="container">
+	  					<div id="vegasProgress" class="progress-bar" >
+	  					</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<span id="numVegases">0</span>
+				</td>
+				<td align="center">
+					<div class="buy-button" id="buyVegasButton" onClick="buyStar(5)">
+						<span id="vegasCost">1500</span> dollars
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+
+
+</html>
